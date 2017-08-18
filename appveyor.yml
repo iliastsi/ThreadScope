@@ -31,7 +31,7 @@ artifacts:
 deploy:
 - provider: GitHub
   auth_token:
-    secure: OrxZPOB9WW197eU5DpWLZ+Qn/ApoxlH9mkhvY30wjys1cbcQSZyMJXk+BYU1xmrF
+    secure: GORaQPc/md4CQ7RPyRfn1i/2Zw9SYJZkUykQeHhbMk9RkquDjG5VKGFeIHSMPGEj
   artifact: threadscope.windows.$(platform).zip
   release: $(appveyor_repo_tag_name)
   on:
