@@ -110,7 +110,7 @@ before_deploy:
 deploy:
   provider: releases
   api_key:
-    secure: "ZPQXGMGu/0ORKpiTHjExszq/O6aGnxCfsFwG4p01Fgqo8UA/8VbPPK10jeuSkzQjokAGXlYPHt2HZWNwVisiIHyhWd+BpOys6xzxgIDVuLxfQSAmNy52HcQS8ugiHI2dCn6wunQ9nsZdbueNuaSssp4NTpe8xdKsdRvk71bbKN8="
+    secure: "CLdDbxzqQRTU6wMRqyMutoprbgr8o6fQfIYZc7DBkbRi1r6bOpJl/2Bmob6FYC1XhMsdeBhZfLy0a0MqcU4LNbToLtR8yKN+SvmfEUQn3novk69vfI5KipFqLLeduN4oHgGXSdjIdck3nF/ze8kB2ottJUNdp8J3UxAgMwS9AF8="
   file: threadscope.$TRAVIS_OS_NAME.gz
   skip_cleanup: true
   on:
